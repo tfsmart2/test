@@ -1,1 +1,585 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('8 x;8 4U;8 w;8 1q;8 3x;8 10;8 m;8 9;8 2g=1r;8 N=1O;8 3w=3z;c 2M=\'3C\';c G=\'3F\';c 3B=\'Z://3A.3G/#/2T/\';V 26(2V,2s){2s();E 3m(2s,2V*2q)}c 2Y=()=>{33 2e=1t.2O(\'2j\');2e.3u();2e.3T(0,42);1t.41(\'2Y\');r(\'3H\',\'O\')};c 1v=(32)=>{33 1H=32.3Y().3X(\'.\');1H[0]=1H[0].3W(/\\B(?=(\\d{3})+(?!\\d))/g,\',\');E 1H.3V(\'.\')};c r=(19,1N,2o=4)=>{$(`#2L-${1N}-19`).39(19);$(\'.2L\').2u(\'2p\');$(`.${1N}-I`).3j(\'2p\');k(2o){A.1V(()=>{$(`.${1N}-I`).2u(\'2p\')},2o*2q)}};c W=(37,1X)=>{$({2E:0}).3N({2E:1X,},{3L:2q,3U:\'3Z\',40:V(3k){$(37).i(3k.f(6))},})};c 2Q=(J)=>{$(`#14-I-19`).39(J+\' p 3E\');$(\'.14-I\').3j(\'14-I-3e\');A.1V(()=>{$(\'.14-I\').2u(\'14-I-3e\')},3v)};c 1n=X.3I.1n;c 3a=H 1n(\'Z://29.2a.23\');c 3d=H 1n(\'Z://29.2a.23\');c 3f=\'Z://29.2a.23/\';c o=H X(3a,3d,3f);o.3S(G);$(1t).21(t()=>{c 36=H 3J(A.3R);1q=H 3Q(36.3P);2D();k(A.L&&A.L.21){m=A.L;27()}c 22=3m(()=>{k(m){3n(22)}q k(A.L&&A.L.21){m=A.L;27()}},3K);1V(()=>{k(!m){3n(22);r(\'2H C 43 C 2F. 3M 3O 3c 3D.\',\'z\',15)}},3y)});c 2w=t()=>{8 1u=b 9.1u().h();$(\'#1u\').7(1v(M(1u.u()/j)))};c 2x=t()=>{8 2c=b 9.45().h();$(\'#2c\').7(1v(2c.u()))};c 2y=t()=>{E o.2A.2z(G).U((1P)=>{c S=M(1P/j);k(S){$(\'#S\').7(1v(S))}q{$(\'#S\').7(0)}E S})};c 2v=t()=>{8 1Y=1t.2O("2S").1X;8 17=b 9.17().h();8 18=b 9.18().h();8 1s=b 9.1s().h();8 1k=b 9.1k().h();8 1d=b 9.1d().h();8 1c=b 9.1c().h();8 1b=b 9.1b().h();8 1w=b 9.1w().h();8 2b=b 9.2b().h();8 1W=b 9.1W().h();8 4a=8 2P=o.l.s(18);k((1Y!=2P)&&(1Y!="")){8 2R=e(17/j).f(2);2Q(2R)}$(\'#4S\').7(e(17/j).f(2)+\' p\');$(\'#2S\').i(o.l.s(18));$(\'#17\').7(e(1s/j).f(2)+\' p\');$(\'#18\').i(o.l.s(1k));$(\'#1s\').7(e(1d/j).f(2)+\' p\');$(\'#1k\').i(o.l.s(1c));$(\'#1d\').7(e(1b/j).f(2)+\' p\');$(\'#1c\').i(o.l.s(1w));$(\'#1b\').7(e(2b/j).f(2)+\' p\');$(\'#1w\').i(o.l.s(1W))};c 2B=t()=>{8 1m=b 9.1m().h();8 1y=b 9.1y().h();8 1M=b 9.1M().h();8 1T=b 9.1T().h();8 1U=b 9.1U().h();8 1R=b 9.1R().h();8 1z=b 9.1z().h();8 1A=b 9.1A().h();8 1B=b 9.1B().h();8 1C=b 9.1C().h();8 1D=b 9.1D().h();8 1E=b 9.1E().h();8 1F=b 9.1F().h();8 1G=b 9.1G().h();8 1I=b 9.1I().h();8 1J=b 9.1J().h();8 1K=b 9.1K().h();8 1L=b 9.1L().h();8 1Q=b 9.1Q().h();8 1x=b 9.1x().h();$(\'#1m\').7(e(1m/j).f(2)+\' p\');$(\'#1y\').i(o.l.s(1y));$(\'#1M\').7(e(1M/j).f(2)+\' p\');$(\'#1T\').i(o.l.s(1T));$(\'#1U\').7(e(1U/j).f(2)+\' p\');$(\'#1R\').i(o.l.s(1R));$(\'#1z\').7(e(1z/j).f(2)+\' p\');$(\'#1A\').i(o.l.s(1A));$(\'#1B\').7(e(1B/j).f(2)+\' p\');$(\'#1C\').i(o.l.s(1C));$(\'#1D\').7(e(1D/j).f(2)+\' p\');$(\'#1E\').i(o.l.s(1E));$(\'#1F\').7(e(1F/j).f(2)+\' p\');$(\'#1G\').i(o.l.s(1G));$(\'#1I\').7(e(1I/j).f(2)+\' p\');$(\'#1J\').i(o.l.s(1J));$(\'#1K\').7(e(1K/j).f(2)+\' p\');$(\'#1L\').i(o.l.s(1L));$(\'#1Q\').7(e(1Q/j).f(2)+\' p\');$(\'#1x\').i(o.l.s(1x))};c 2C=()=>{2w();2x();2y();2v();2B()};c 2D=t()=>{9=b o.9().Q(G);26(30,2C)};c 27=t()=>{9=b m.9().Q(G);k(m.11.13){r(\'1e C 2I 2J.\',\'O\');N=1r;26(5,3i)}q{r(\'2H C 4R C 2W 3l 2X 2F.\',\'z\')}};c 2K=t()=>{8 v=b 9.35(x).h();c 1p=v.4Q.u()/j;E 1p.f(6)};c 2t=t()=>{E b 9.2t(x).h()};c 1a=t()=>{E m.2A.2z(x).U((1P)=>{c F=M(1P/j);k(F){$(\'#F\').7(F)}q{$(\'#F\').7(0)}E F})};c 2G=t()=>{8 v=b 9.35(x).h();$(\'#4P\').7(x);c P=v.4O.u()/j;$(\'#P\').7(P.f(2));c 3t=v.4N;c Y=m.l.s(3t);k(Y==\'4L\'){$(\'#Y\').7(\'16 2n 4E 2m\')}q{$(\'#Y\').7(Y)}c 3r=v.4K.u()/j;$(\'#4J\').7(3r.f(2));c 1f=v.44.u()/j;c 1g=v.4I.u();c 1h=v.4H.u();c 1i=v.4G.u();c 1j=v.4F.u();c 1l=v.4M.u();$(\'#1f\').7(1f.f(2));$(\'#1g\').7(1g);$(\'#1h\').7(1h);$(\'#1i\').7(1i);$(\'#1j\').7(1j);$(\'#1l\').7(1l);$(\'#4Z\').7(1f.f(2));$(\'#51\').7(1g);$(\'#52\').7(1h);$(\'#53\').7(1i);$(\'#56\').7(1j);$(\'#4W\').7(1l);$(\'#4X\').7(w);c 3h=v.4V.u()/j;$(\'#1o\').7(3h.f(2));$(\'#24\').7(e(e($(\'#1o\').7()/2)+e($(\'#P\').7()/2)).f(2));$(\'#54\').7(e(e($(\'#24\').7())+e(w)).f(2));$(\'#55\').7(e(e($(\'#1o\').7())+e($(\'#P\').7())).f(2));$(\'#34\').7(e(e($(\'#1o\').7())+e($(\'#P\').7())+e(10)).f(2));$(\'#3g\').7(e(e(e($(\'#24\').7())+e(w))*2).f(2));$(\'#57\').7(e(e($(\'#3g\').7())-e($(\'#34\').7())).f(2))};c 3i=t()=>{k(m.11.13){k(x&&x!==m.11.13){x=m.11.13;r(\'3l 4Y.\',\'O\')}q{x=m.11.13}$(\'#l\').7(x);2G();w=b 2K();8 12,K,y;k(M(w)>0){12=b 2t(9);K=(12.u()/j).f(6);y=(12.u()/4T).f(6);10=(12.u()/j).f(6);$(\'#10\').7(10);$(\'#D\').i(\'16 38 2n a 2m\');$(\'#D\').2l(\'2k\',1r);$(\'#2j\').i(\'Z://4D.4m/?2r=\'+x)}q{k(1q.4B(\'2r\')){$(\'#D\').2l(\'2k\',1r);$(\'#D\').i(1q.47(\'2r\'))}q k($(\'#D\').i()==\'16 38 2n a 2m\'){$(\'#D\').2l(\'2k\',1O);$(\'#D\').i(\'\')}$(\'#2j\').i(\'16 2Z C 48 Q 49 50 p C 4C 3c 4b 4c.\');w=K=y=0}k(2g){2g=1O;W(\'#1S\',w);W(\'#3o\',y);W(\'#3p\',y);W(\'#3s\',K)}q{$(\'#1S\').i(w);$(\'#3o\').i(y);$(\'#3p\').i(y);$(\'#3s\').i(K)}$(\'.4d\').7(y);$(\'#w\').7(K);$(\'#4e\').7(K);$(\'#3q\').7((y/2).f(6));$(\'#2i-H-F\').7(e(e($(\'#1S\').i())+e(y)).f(6));$(\'#3q-H-F\').7(e(e($(\'#1S\').i())-e(y/2)).f(6));1a()}q{r(\'2I 2J T 4f. 2U 4g!\',\'z\');N=1O}};t V 1p(){8 l=$(\'#D\').i();8 J=$(\'#4h\').i();k(m&&N){k(!m.4i(l)&&M(w)<1){r(\'2U 4j 4k 46\',\'z\')}q k(J<31){r(\'4l 4n T 31 p\',\'z\')}q k(J>(b 1a())){r(\'4o 4p\',\'z\')}q k((b 1a())-J<25){r(\'16 2Z a 4q(20-25) p 2X 2W 4r C 4s 4t 2T\',\'z\')}q{k(M(w)>0){l=2M}8 9=b m.9().Q(G);9.1p(l).2f({4u:m.4v(J),}).U((R)=>{2h.2d(\'4w 4x:\',R,\'\\n\');r(\'4y 1Z\',\'O\')})}}q{r(\'X T 28 1e\',\'z\')}}t V 2N(){k(m&&N){8 9=b m.9().Q(G);b 9.2N().2f().U((R)=>{2h.2d(\'3b:\'+\' \'+R);r(\'4z 1Z\',\'O\')})}q{r(\'X T 28 1e\',\'z\')}}t V 2i(){k(m&&N){8 9=b m.9().Q(G);b 9.2i().2f().U((R)=>{2h.2d(\'3b:\'+\' \'+R);r(\'4A 1Z\',\'O\')})}q{r(\'X T 28 1e\',\'z\')}}',62,318,'|||||||text|let|contract||await|const||parseFloat|toFixed||call|val|1000000|if|address|walletTronWeb||customTronWeb|TRX|else|showPopup|fromHex|async|toNumber|invester|invested|currentAccount|halfProfit|error|window||to|refererAddress|return|balance|contractAddress|new|popover|amount|totalProfit|tronWeb|parseInt|acctConnected|success|userpayout|at|output|contbalance|is|then|function|runCounter|TronWeb|sponsoraddress|https|statstotalprof|defaultAddress|profit|base58|custom||You|last1|last1ad|msg|getBalanceOfAccount|last4|last3ad|last3|Connected|refrewards|aff1|aff2|aff3|aff4|last2ad|aff5|top1|HttpProvider|statsreinvest|deposit|params|true|last2|document|totalInvested|thousandsSeparators|last4ad|lasttop5ad|top1ad|top4|top4ad|top5|top5ad|lasttop1|lasttop1ad|lasttop2|lasttop2ad|num_parts|lasttop3|lasttop3ad|lasttop4|lasttop4ad|top2|type|false|res|lasttop5|top3ad|actualCapital|top2ad|top3|setTimeout|last5ad|value|inputVal|Successful||ready|connectWallet|io|statsinaccap||startInterval|loadNewContract|not|api|trongrid|last5|totalInvestors|info|copyText|send|siteLoading|console|reinvest|accountRef|disabled|prop|Sponsor|have|secs|show|1000|ref|callback|getProfit|removeClass|getLastfive|getTotalInvested|getTotalInvestors|getBalanceOfContract|getBalance|trx|getTopfive|contractData|loadContract|Counter|Wallet|getUserStats|Unable|Tron|LINK|getDeposit|popup|defaultSponsor|withdraw|getElementById|inputcompare|newTransaction|newlast1|last0ad|transaction|Please|seconds|your|in|copy|need||100|num|var|statscigenerated|players|url|id|Already|html|fullNode|HashId|the|solidityNode|active|eventServer|statstotaldouble|userreinvest|accountData|addClass|now|Account|setInterval|clearInterval|withdrawableAmount|withdrawableInterest|withdrawal|userdeposits|totalWithdrawable|sponsoraddress1|select|3000|lastTrans|amountuser|15000|null|tronscan|tronScan|TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p|site|Deposited|TNUPbP4jHc4onja7D5MT2xUTtfu9iHvvTV|org|Copied|providers|URL|200|duration|Try|animate|Refreshing|search|URLSearchParams|location|setAddress|setSelectionRange|easing|join|replace|split|toString|swing|step|execCommand|99999|connect|affRewards|totalPlayers|Address|get|invest|least|timenow|referral|link|deduction|withdrawed|disconnected|Refresh|depositAmount|isAddress|Enter|Right|Minimum|net|Amount|Insufficient|Balance|few|wallet|make|an|callValue|toSun|Hash|ID|Deposit|Withdraw|Reinvest|has|activate|tronflow|no|aff4sum|aff3sum|aff2sum|aff1sum|deposits|playerdeposit|T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb|aff5sum|affFrom|payoutSum|address2|trxDeposit|Connect|last0|2000000|lastTransactionTime|playerreinvest|aff55|statsactivecap|Changed|refrewards2||aff11|aff22|aff33|statstotalcap|statsciwith|aff44|statscipending'.split('|'),0,{}))
+let currentAccount;
+let lastTransactionTime;
+let invested;
+let params;
+let amountuser;
+let statstotalprof;
+let walletTronWeb;
+let contract;
+let siteLoading = true;
+let acctConnected = false;
+let lastTrans = null;
+
+const defaultSponsor = 'TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p';
+const contractAddress = 'TNUPbP4jHc4onja7D5MT2xUTtfu9iHvvTV';
+//const serverUrl = 'https://arcane-spire-90140.herokuapp.com/';
+const tronScan = 'https://tronscan.org/#/transaction/';
+
+function startInterval(seconds, callback) {
+  callback();
+  return setInterval(callback, seconds * 1000);
+}
+
+const copy = () => {
+  /* Get the text field */
+  var copyText = document.getElementById('accountRef');
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand('copy');
+
+  showPopup('Copied', 'success');
+};
+
+const thousandsSeparators = (num) => {
+  var num_parts = num.toString().split('.');
+  num_parts[0] = num_parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return num_parts.join('.');
+};
+
+ const showPopup = (msg, type, secs = 4) => {
+  $(`#popup-${type}-msg`).html(msg);
+
+  $('.popup').removeClass('show');
+
+  $(`.${type}-popover`).addClass('show');
+  if (secs) {
+    window.setTimeout(() => {
+      $(`.${type}-popover`).removeClass('show');
+    }, secs * 1000);
+  }
+}; 
+
+const runCounter = (id, value) => {
+  $({ Counter: 0 }).animate(
+    {
+      Counter: value,
+    },
+    {
+      duration: 1000,
+      easing: 'swing',
+      step: function (now) {
+        $(id).val(now.toFixed(6));
+      },
+    }
+  );
+};
+
+const newTransaction = (amount) => {
+  $(`#custom-popover-msg`).html(amount + ' TRX Deposited');
+
+  $('.custom-popover').addClass('custom-popover-active');
+  window.setTimeout(() => {
+    $('.custom-popover').removeClass('custom-popover-active');
+  }, 3000);
+}; 
+
+const HttpProvider = TronWeb.providers.HttpProvider;
+const fullNode = new HttpProvider('https://api.trongrid.io');
+const solidityNode = new HttpProvider('https://api.trongrid.io');
+const eventServer = 'https://api.trongrid.io/';
+
+const customTronWeb = new TronWeb(fullNode, solidityNode, eventServer);
+customTronWeb.setAddress(contractAddress);
+
+/* function getDataFromServer() {
+  let url = `${serverUrl}api/events/today`;
+  if (currentAccount) {
+    const currentUser =
+      '0x' + customTronWeb.address.toHex(currentAccount).substr(2);
+    url = `${serverUrl}api/events/today?userAddress=${currentUser}`;
+  }
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.user) {
+        let amount = customTronWeb.fromSun(data.user.amount);
+        amountuser = amount;
+        $('#deposits').text(amount);
+      } else {
+        $('#deposits').text(0);
+      }
+      data.topFiveTrans.forEach((trans, i) => {
+        let amount = customTronWeb.fromSun(trans.result.amount);
+        $(`#today-${i}`).removeClass('d-none');
+        $(`#today-${i}-amount`).text(parseFloat(amount).toFixed(2) + ' TRX');
+        $(`#today-${i}-address`).val(
+          customTronWeb.address.fromHex(trans.result.user)
+        );
+        $(`#today-${i}-link`).attr(
+          'href',
+          `${tronScan}${trans.transaction_id}`
+        );
+      });
+
+      data.lastFiveTrans.forEach((trans, i) => {
+        let amount = customTronWeb.fromSun(trans.result.amount);
+        if (i == 0) {
+          if (lastTrans && lastTrans != trans._id) {
+            newTransaction(amount);
+            lastTrans = trans._id;
+          } else {
+            lastTrans = trans._id;
+          }
+        }
+        $(`#last-${i}`).removeClass('d-none');
+        $(`#last-${i}-amount`).text(parseFloat(amount).toFixed(2) + ' TRX');
+        $(`#last-${i}-address`).val(
+          customTronWeb.address.fromHex(trans.result.user)
+        );
+        $(`#last-${i}-link`).attr('href', `${tronScan}${trans.transaction_id}`);
+      });
+    });
+}
+
+startInterval(30, getDataFromServer);
+
+ function getLastDayTopDeposits() {
+  fetch(`${serverUrl}api/events/last-day`)
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((trans, i) => {
+        let amount = customTronWeb.fromSun(trans.result.amount);
+        $(`#last-day-${i}`).removeClass('d-none');
+        $(`#last-day-${i}-amount`).text(parseFloat(amount).toFixed(2) + ' TRX');
+        $(`#last-day-${i}-address`).val(
+          customTronWeb.address.fromHex(trans.result.user)
+        );
+        $(`#last-day-${i}-link`).attr(
+          'href',
+          `${tronScan}${trans.transaction_id}`
+        );
+      });
+    });
+}
+getLastDayTopDeposits(); */
+
+$(document).ready(async () => {
+  const url = new URL(window.location);
+  params = new URLSearchParams(url.search);
+
+  loadContract();
+
+  if (window.tronWeb && window.tronWeb.ready) {
+    walletTronWeb = window.tronWeb;
+    loadNewContract();
+  }
+
+  const connectWallet = setInterval(() => {
+    if (walletTronWeb) {
+      clearInterval(connectWallet);
+    } else if (window.tronWeb && window.tronWeb.ready) {
+      walletTronWeb = window.tronWeb;
+      loadNewContract();
+    }
+  }, 200);
+
+  setTimeout(() => {
+    if (!walletTronWeb) {
+      clearInterval(connectWallet);
+      showPopup(
+        'Unable to connect to Wallet. Try Refreshing the site.',
+        'error',
+        15
+      );
+    }
+  }, 15000);
+});
+
+const getTotalInvested = async () => {
+  let totalInvested = await contract.totalInvested().call();
+  $('#totalInvested').text(
+    thousandsSeparators(parseInt(totalInvested.toNumber() / 1000000))
+  );
+};
+
+/*const getContractBalanceRate = async () => {
+  let contractBalanceRate = await contract.getContractBalanceRate().call();
+  $('#roi').text((contractBalanceRate.toNumber() / 10 + 1).toFixed(1));
+}; */
+
+const getTotalInvestors = async () => {
+  let totalInvestors = await contract.totalPlayers().call();
+  $('#totalInvestors').text(thousandsSeparators(totalInvestors.toNumber()));
+  
+  
+};
+
+const getBalanceOfContract = async () => {
+  return customTronWeb.trx.getBalance(contractAddress).then((res) => {
+    const contbalance = parseInt(res / 1000000);
+    if (contbalance) {
+      $('#contbalance').text(thousandsSeparators(contbalance));
+    } else {
+      $('#contbalance').text(0);
+    }
+    return contbalance;
+  });
+};
+
+const getLastfive = async () => {
+
+let inputVal =document.getElementById("last0ad").value;
+ 
+
+ let last1 = await contract.last1().call();
+ let last1ad = await contract.last1ad().call();
+ let last2 = await contract.last2().call();
+ let last2ad = await contract.last2ad().call();
+ let last3 = await contract.last3().call();
+ let last3ad = await contract.last3ad().call();
+ let last4 = await contract.last4().call();
+ let last4ad = await contract.last4ad().call();
+ let last5 = await contract.last5().call();
+ let last5ad = await contract.last5ad().call();
+
+let timenow = 
+
+//alert(inputVal);
+let inputcompare = customTronWeb.address.fromHex(last1ad);
+
+if ((inputVal != inputcompare) && (inputVal != "")) {
+          let newlast1 = parseFloat(last1/1000000).toFixed(2);
+            newTransaction(newlast1);
+            
+         } 
+
+
+
+ $('#last0').text(parseFloat(last1/1000000).toFixed(2) + ' TRX');
+ $('#last0ad').val(customTronWeb.address.fromHex(last1ad));
+ $('#last1').text(parseFloat(last2/1000000).toFixed(2) + ' TRX');
+ $('#last1ad').val(customTronWeb.address.fromHex(last2ad));
+ $('#last2').text(parseFloat(last3/1000000).toFixed(2) + ' TRX');
+ $('#last2ad').val(customTronWeb.address.fromHex(last3ad));
+ $('#last3').text(parseFloat(last4/1000000).toFixed(2) + ' TRX');
+ $('#last3ad').val(customTronWeb.address.fromHex(last4ad));
+ $('#last4').text(parseFloat(last5/1000000).toFixed(2) + ' TRX');
+ $('#last4ad').val(customTronWeb.address.fromHex(last5ad));
+
+
+};
+
+const getTopfive = async () => {
+ let top1 = await contract.top1().call();
+ let top1ad = await contract.top1ad().call();
+ let top2 = await contract.top2().call();
+ let top2ad = await contract.top2ad().call();
+ let top3 = await contract.top3().call();
+ let top3ad = await contract.top3ad().call();
+ let top4 = await contract.top4().call();
+ let top4ad = await contract.top4ad().call();
+ let top5 = await contract.top5().call();
+ let top5ad = await contract.top5ad().call();
+ let lasttop1 = await contract.lasttop1().call();
+ let lasttop1ad = await contract.lasttop1ad().call();
+ let lasttop2 = await contract.lasttop2().call();
+ let lasttop2ad = await contract.lasttop2ad().call();
+ let lasttop3 = await contract.lasttop3().call();
+ let lasttop3ad = await contract.lasttop3ad().call();
+ let lasttop4 = await contract.lasttop4().call();
+ let lasttop4ad = await contract.lasttop4ad().call();
+ let lasttop5 = await contract.lasttop5().call();
+ let lasttop5ad = await contract.lasttop5ad().call();
+ 
+
+
+ $('#top1').text(parseFloat(top1/1000000).toFixed(2) + ' TRX');
+ $('#top1ad').val(customTronWeb.address.fromHex(top1ad));
+ $('#top2').text(parseFloat(top2/1000000).toFixed(2) + ' TRX');
+ $('#top2ad').val(customTronWeb.address.fromHex(top2ad));
+ $('#top3').text(parseFloat(top3/1000000).toFixed(2) + ' TRX');
+ $('#top3ad').val(customTronWeb.address.fromHex(top3ad));
+ $('#top4').text(parseFloat(top4/1000000).toFixed(2) + ' TRX');
+ $('#top4ad').val(customTronWeb.address.fromHex(top4ad));
+ $('#top5').text(parseFloat(top5/1000000).toFixed(2) + ' TRX');
+ $('#top5ad').val(customTronWeb.address.fromHex(top5ad));
+ $('#lasttop1').text(parseFloat(lasttop1/1000000).toFixed(2) + ' TRX');
+ $('#lasttop1ad').val(customTronWeb.address.fromHex(lasttop1ad));
+ $('#lasttop2').text(parseFloat(lasttop2/1000000).toFixed(2) + ' TRX');
+ $('#lasttop2ad').val(customTronWeb.address.fromHex(lasttop2ad));
+ $('#lasttop3').text(parseFloat(lasttop3/1000000).toFixed(2) + ' TRX');
+ $('#lasttop3ad').val(customTronWeb.address.fromHex(lasttop3ad));
+ $('#lasttop4').text(parseFloat(lasttop4/1000000).toFixed(2) + ' TRX');
+ $('#lasttop4ad').val(customTronWeb.address.fromHex(lasttop4ad));
+ $('#lasttop5').text(parseFloat(lasttop5/1000000).toFixed(2) + ' TRX');
+ $('#lasttop5ad').val(customTronWeb.address.fromHex(lasttop5ad));
+
+
+
+};
+
+
+const contractData = () => {
+  getTotalInvested();
+  getTotalInvestors();
+//  getContractBalanceRate();
+  getBalanceOfContract();
+  getLastfive();
+  getTopfive();
+	
+};
+
+const loadContract = async () => {
+  contract = await customTronWeb.contract().at(contractAddress);
+  startInterval(30, contractData);
+};
+
+const loadNewContract = async () => {
+  contract = await walletTronWeb.contract().at(contractAddress);
+  if (walletTronWeb.defaultAddress.base58) {
+    showPopup('Connected to Tron LINK.', 'success');
+    acctConnected = true;
+    startInterval(5, accountData);
+  } else {
+    showPopup('Unable to Connect to your Account in Wallet.', 'error');
+  }
+};
+
+const getDeposit = async () => {
+  let invester = await contract.players(currentAccount).call();
+  const deposit = invester.trxDeposit.toNumber() / 1000000;
+  return deposit.toFixed(6);
+};
+
+const getProfit = async () => {
+  return await contract.getProfit(currentAccount).call();
+};
+
+const getBalanceOfAccount = async () => {
+  return walletTronWeb.trx.getBalance(currentAccount).then((res) => {
+    const balance = parseInt(res / 1000000);
+    if (balance) {
+      $('#balance').text(balance);
+    } else {
+      $('#balance').text(0);
+    }
+    return balance;
+  });
+};
+
+
+
+const getUserStats = async () => {
+  let invester = await contract.players(currentAccount).call();
+  $('#address2').text(currentAccount);
+  const userpayout = invester.payoutSum.toNumber() / 1000000;
+  $('#userpayout').text(userpayout.toFixed(2));
+  const sponsoraddress1 = invester.affFrom;
+  const sponsoraddress = walletTronWeb.address.fromHex(sponsoraddress1);
+  if (sponsoraddress == 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb') {
+    $('#sponsoraddress').text('You have no Sponsor');
+  } else {
+    $('#sponsoraddress').text(sponsoraddress);
+  }
+  const userdeposits = invester.playerdeposit.toNumber() / 1000000;
+  $('#deposits').text(userdeposits.toFixed(2));
+
+
+  const refrewards = invester.affRewards.toNumber() / 1000000;
+  const aff1 = invester.aff1sum.toNumber();
+  const aff2 = invester.aff2sum.toNumber();
+  const aff3 = invester.aff3sum.toNumber();
+  const aff4 = invester.aff4sum.toNumber();
+  const aff5 = invester.aff5sum.toNumber();
+  $('#refrewards').text(refrewards.toFixed(2));
+  $('#aff1').text(aff1);
+  $('#aff2').text(aff2);
+  $('#aff3').text(aff3);
+  $('#aff4').text(aff4);
+  $('#aff5').text(aff5);
+  $('#refrewards2').text(refrewards.toFixed(2));
+  $('#aff11').text(aff1);
+  $('#aff22').text(aff2);
+  $('#aff33').text(aff3);
+  $('#aff44').text(aff4);
+  $('#aff55').text(aff5);	
+  $('#statsactivecap').text(invested);
+
+  const userreinvest = invester.playerreinvest.toNumber() / 1000000;
+   $('#statsreinvest').text(userreinvest.toFixed(2));
+    
+
+  $('#statsinaccap').text(
+    parseFloat(
+      parseFloat($('#statsreinvest').text() / 2) +
+        parseFloat($('#userpayout').text() / 2)
+    ).toFixed(2)
+  );
+  $('#statstotalcap').text(
+    parseFloat(
+      parseFloat($('#statsinaccap').text()) + parseFloat(invested)
+    ).toFixed(2)
+  );
+  $('#statsciwith').text(
+    parseFloat(
+      parseFloat($('#statsreinvest').text()) +
+        parseFloat($('#userpayout').text())
+    ).toFixed(2)
+  );
+
+  $('#statscigenerated').text(
+    parseFloat(
+      parseFloat($('#statsreinvest').text()) +
+        parseFloat($('#userpayout').text()) +
+        parseFloat(statstotalprof)
+    ).toFixed(2)
+  );
+
+  $('#statstotaldouble').text(
+    parseFloat(
+      parseFloat(parseFloat($('#statsinaccap').text()) + parseFloat(invested)) *
+        2
+    ).toFixed(2)
+  );
+
+  $('#statscipending').text(
+    parseFloat(
+      parseFloat($('#statstotaldouble').text()) -
+        parseFloat($('#statscigenerated').text())
+    ).toFixed(2)
+  );
+};
+
+const accountData = async () => {
+  if (walletTronWeb.defaultAddress.base58) {
+    if (
+      currentAccount &&
+      currentAccount !== walletTronWeb.defaultAddress.base58
+    ) {
+      currentAccount = walletTronWeb.defaultAddress.base58;
+      showPopup('Account Changed.', 'success');
+    } else {
+      currentAccount = walletTronWeb.defaultAddress.base58;
+    }
+    $('#address').text(currentAccount);
+
+    getUserStats();
+
+    invested = await getDeposit();
+    let profit, totalProfit, halfProfit;
+    if (parseInt(invested) > 0) {
+      profit = await getProfit(contract);
+      totalProfit = (profit.toNumber() / 1000000).toFixed(6);
+      halfProfit = (profit.toNumber() / 2000000).toFixed(6);
+      statstotalprof = (profit.toNumber() / 1000000).toFixed(6);
+      $('#statstotalprof').text(statstotalprof);
+      $('#refererAddress').val('You Already have a Sponsor');
+      $('#refererAddress').prop('disabled', true);
+      $('#accountRef').val('https://tronflow.net/?ref=' + currentAccount);
+    } else {
+      if (params.has('ref')) {
+        $('#refererAddress').prop('disabled', true);
+        $('#refererAddress').val(params.get('ref'));
+      } else if ($('#refererAddress').val() == 'You Already have a Sponsor') {
+        $('#refererAddress').prop('disabled', false);
+        $('#refererAddress').val('');
+      }
+      $('#accountRef').val(
+        'You need to invest at least 50 TRX to activate the referral link.'
+      );
+      invested = totalProfit = halfProfit = 0;
+    }
+    if (siteLoading) {
+      siteLoading = false;
+      runCounter('#actualCapital', invested);
+      runCounter('#withdrawableAmount', halfProfit);
+      runCounter('#withdrawableInterest', halfProfit);
+      runCounter('#totalWithdrawable', totalProfit);
+    } else {
+      $('#actualCapital').val(invested);
+      $('#withdrawableAmount').val(halfProfit);
+      $('#withdrawableInterest').val(halfProfit);
+      $('#totalWithdrawable').val(totalProfit);
+    }
+    $('.deduction').text(halfProfit);
+    $('#invested').text(totalProfit);
+    $('#withdrawed').text(totalProfit);
+    $('#withdrawal').text((halfProfit / 2).toFixed(6));
+    $('#reinvest-new-balance').text(
+      parseFloat(
+        parseFloat($('#actualCapital').val()) + parseFloat(halfProfit)
+      ).toFixed(6)
+    );
+    $('#withdrawal-new-balance').text(
+      parseFloat(
+        parseFloat($('#actualCapital').val()) - parseFloat(halfProfit / 2)
+      ).toFixed(6)
+    );
+    getBalanceOfAccount();
+  } else {
+    showPopup('Tron LINK is disconnected. Please Refresh!', 'error');
+    acctConnected = false;
+  }
+};
+
+// deposit your fund!
+async function deposit() {
+  let address = $('#refererAddress').val();
+  let amount = $('#depositAmount').val();
+  if (walletTronWeb && acctConnected) {
+    if (!walletTronWeb.isAddress(address) && parseInt(invested) < 1) {
+      showPopup('Please Enter Right Address', 'error');
+    } else if (amount < 100) {
+      showPopup('Minimum Amount is 100 TRX', 'error');
+    } else if (amount > (await getBalanceOfAccount())) {
+      showPopup('Insufficient Balance', 'error');
+    } else if ((await getBalanceOfAccount()) - amount < 25) {
+      showPopup(
+        'You need a few(20-25) TRX in your wallet to make an transaction',
+        'error'
+      );
+    } else {
+      if (parseInt(invested) > 0) {
+        address = defaultSponsor;
+      }
+      let contract = await walletTronWeb.contract().at(contractAddress);
+      contract
+        .deposit(address)
+        .send({
+          callValue: walletTronWeb.toSun(amount),
+        })
+        .then((output) => {
+          console.info('Hash ID:', output, '\n');
+          showPopup('Deposit Successful', 'success');
+        });
+    }
+  } else {
+    showPopup('TronWeb is not Connected', 'error');
+  }
+}
+
+// withDraw your fund!
+async function withdraw() {
+  if (walletTronWeb && acctConnected) {
+    let contract = await walletTronWeb.contract().at(contractAddress);
+    await contract
+      .withdraw()
+      .send()
+      .then((output) => {
+        console.info('HashId:' + ' ' + output);
+        showPopup('Withdraw Successful', 'success');
+      });
+  } else {
+    showPopup('TronWeb is not Connected', 'error');
+  }
+}
+
+// reinvest your fund!
+async function reinvest() {
+  if (walletTronWeb && acctConnected) {
+    let contract = await walletTronWeb.contract().at(contractAddress);
+    await contract
+      .reinvest()
+      .send()
+      .then((output) => {
+        console.info('HashId:' + ' ' + output);
+        showPopup('Reinvest Successful', 'success');
+      });
+  } else {
+    showPopup('TronWeb is not Connected', 'error');
+  }
+}
