@@ -602,6 +602,13 @@ async function deposit() {
 
 // withDraw your fund!
 async function withdraw() {
+let invester1 = await contract.players(currentAccount).call();
+ let time = Math.floor(Date.now() / 1000);
+ let usertimewith = invester1.withdrawtime.toNumber();
+
+let seconds = Number(parseFloat(usertimewith) - parseFloat(time));
+	
+if (seconds <= 0){	
   if (walletTronWeb && acctConnected) {
     let contract = await walletTronWeb.contract().at(contractAddress);
     await contract
@@ -614,6 +621,11 @@ async function withdraw() {
   } else {
     showPopup('TronWeb is not Connected', 'error');
   }
+} else {
+ showPopup('Your countdown to withdraw is not finished', 'error');
+}
+	
+	
 }
 
 // reinvest your fund!
