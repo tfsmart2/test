@@ -502,7 +502,7 @@ const accountData = async () => {
     $('#address').text(currentAccount);
 
     getUserStats();
-    // secondsToDhms();
+    secondsToDhms();
     
 
     invested = await getDeposit();
