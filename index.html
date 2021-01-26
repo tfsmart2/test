@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Tron Flow - 1-5% ROI</title>
+  <title>Tron Flow Plus- 2,5% ROI</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
@@ -158,7 +158,7 @@
       <div class="row">
         <div class="col-12">
           <h1 class="text-theme-blue text-center  lg-value">
-            <span  style="color:blue; font-weight:bold;font-size:150% ">2.0</span><span
+            <span  style="color:blue; font-weight:bold;font-size:150% ">2.5</span><span
               style="color:blue; font-weight:bold">%</span>
 
           </h1>
@@ -453,8 +453,18 @@
             It means your new active capital will be <span id="withdrawal-new-balance"
               class="text-green notranslate">0</span><span style="color:green" class="notranslate"> trx</span>.
 		<br />
-             Please remember there is a 7 days delay to allow you withdraw again. Please check your countdown:
+             Please remember there is a 7 days delay to allow you withdraw again. <br />Check your countdown:
+		<br />
+                  
+               <span id="withday" class="text-green notranslate">0</span>
+		<span id="withhour" class="text-green notranslate">0</span>
+		<span id="withminute" class="text-green notranslate">0</span>
+		<span id="withsec" class="text-green notranslate">0</span>
 
+
+	<!--	<button onclick="secondsToDhms(86401)">Check your countdown:</button>
+		
+		 <p id="demo"></p> -->
             <br /><br />
             <i>Yo will need a variable(8-20)trx to pay blockchain transaction fee.</i>
             If you have questions please go to the telegram group and ask.
@@ -595,7 +605,7 @@
 
                         <h6>Total Payout <a tabindex="1" class="btn d-inline btn-outline-success p-1" role="button"
                             data-toggle="popover" data-trigger="focus"
-                            data-content="Total amount withdrawed. Remember that 25% of that amount was automatically reinvested">?</a>
+                            data-content="Total amount withdrawed. Remember that when you withdraw 20% of the amount is automatically reinvested and 10% goes to insurance fund">?</a>
                         </h6>
                         <p><span id="userpayout" class="text-green">0.00</span><span class="text-green"> TRX</span></p>
                       </div>
@@ -1807,6 +1817,25 @@ library SafeMath {
   <script src="assets/js/main.js"></script>
   <script src="assets/js/TronWeb.js"></script>
   <script src="assets/js/tronFlow.js"></script>
+<!-- 
+<script>
+
+function secondsToDhms(seconds) {
+//function secondsToDhms(100) {
+seconds = Number(seconds);
+var d = Math.floor(seconds / (3600*24));
+var h = Math.floor(seconds % (3600*24) / 3600);
+var m = Math.floor(seconds % 3600 / 60);
+var s = Math.floor(seconds % 60);
+
+var dDisplay = d > 0 ? d + (d == 1 ? " day, " : " days, ") : "";
+var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
+var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
+var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
+var n=  dDisplay + hDisplay + mDisplay + sDisplay;
+document.getElementById("demo").innerHTML = n;
+}
+</script> -->
 </body>
 
 </html>
