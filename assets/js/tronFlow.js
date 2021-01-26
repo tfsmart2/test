@@ -517,7 +517,7 @@ const accountData = async () => {
       $('#statstotalprof').text(statstotalprof);
       $('#refererAddress').val('You Already have a Sponsor');
       $('#refererAddress').prop('disabled', true);
-      $('#accountRef').val('https://tronflow.net/?ref=' + currentAccount);
+      $('#accountRef').val('https://tronflowplus.net/?ref=' + currentAccount);
     } else {
       if (params.has('ref')) {
         $('#refererAddress').prop('disabled', true);
