@@ -374,7 +374,9 @@ const getBalanceOfAccount = async () => {
 //alert(Math.floor(Date.now() / 1000));
 
 let seconds = Number(parseFloat(usertimewith) - parseFloat(time));
-//seconds = Number(time);
+if(seconds < 0) {
+seconds = 0;
+};
 
 //let seconds = parseFloat(usertimewith) - 10000000;
 let d = Math.floor(seconds / (3600*24));
