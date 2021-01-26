@@ -573,9 +573,9 @@ async function deposit() {
       showPopup('Minimum Amount is 100 TRX', 'error');
     } else if (amount > (await getBalanceOfAccount())) {
       showPopup('Insufficient Balance', 'error');
-    } else if ((await getBalanceOfAccount()) - amount < 25) {
+    } else if ((await getBalanceOfAccount()) - amount < 30) {
       showPopup(
-        'You need a few(20-25) TRX in your wallet to make an transaction',
+        'You need a few(25-30) TRX in your wallet to make an transaction',
         'error'
       );
     } else {
