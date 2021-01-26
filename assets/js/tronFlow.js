@@ -571,8 +571,8 @@ async function deposit() {
   if (walletTronWeb && acctConnected) {
     if (!walletTronWeb.isAddress(address) && parseInt(invested) < 1) {
       showPopup('Please Enter Right Address', 'error');
-    } else if (amount < 100) {
-      showPopup('Minimum Amount is 100 TRX', 'error');
+    } else if (amount < 1000) {
+      showPopup('Minimum Amount is 1000 TRX', 'error');
     } else if (amount > (await getBalanceOfAccount())) {
       showPopup('Insufficient Balance', 'error');
     } else if ((await getBalanceOfAccount()) - amount < 30) {
