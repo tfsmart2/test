@@ -619,7 +619,7 @@ async function withdraw() {
 //}
 	
 	
-}
+//}
 
 // reinvest your fund!
 async function reinvest() {
