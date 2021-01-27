@@ -367,7 +367,7 @@ const getBalanceOfAccount = async () => {
 };
 
 
- const secondsToDhms = async () => {
+/* const secondsToDhms = async () => {
  let invester = await contract.players(currentAccount).call();
  let time = Math.floor(Date.now() / 1000);
  let usertimewith = invester.withdrawtime.toNumber();
@@ -389,17 +389,9 @@ $('#withhour').text(h + ' hours : ');
 $('#withminute').text(m + ' minutes : ');
 $('#withsec').text(s + ' seconds'); 
 
-/*
-var dDisplay = d > 0 ? d + (d == 1 ? " day, " : " days, ") : "";
-var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
-var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
-var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
-var n=  dDisplay + hDisplay + mDisplay + sDisplay;
-document.getElementById("demo").innerHTML = n;
-*/
 
 
- };
+ }; */
 
 
 
@@ -504,7 +496,7 @@ const accountData = async () => {
     $('#address').text(currentAccount);
 
     getUserStats();
-    secondsToDhms();
+  //  secondsToDhms();
     
 
     invested = await getDeposit();
