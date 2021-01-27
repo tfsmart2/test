@@ -323,7 +323,7 @@ const contractData = () => {
   getBalanceOfContract();
   getLastfive();
   getTopfive();
- secondsToDhms();
+// secondsToDhms();
   
 	
 };
