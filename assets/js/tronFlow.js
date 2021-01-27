@@ -368,9 +368,9 @@ const getBalanceOfAccount = async () => {
 
 
  const secondsToDhms = async () => {
- let invester1 = await contract.players(currentAccount).call();
+ let invester = await contract.players(currentAccount).call();
  let time = Math.floor(Date.now() / 1000);
- let usertimewith = invester1.withdrawtime.toNumber();
+ let usertimewith = invester.withdrawtime.toNumber();
 //alert(Math.floor(Date.now() / 1000));
 
 let seconds = Number(parseFloat(usertimewith) - parseFloat(time));
