@@ -602,9 +602,9 @@ async function deposit() {
 
 // withDraw your fund!
 async function withdraw() {
-let invester1 = await contract.players(currentAccount).call();
+let invester = await contract.players(currentAccount).call();
  let time = Math.floor(Date.now() / 1000);
- let usertimewith = invester1.withdrawtime.toNumber();
+ let usertimewith = invester.withdrawtime.toNumber();
 
 let seconds = Number(parseFloat(usertimewith) - parseFloat(time));
 	
