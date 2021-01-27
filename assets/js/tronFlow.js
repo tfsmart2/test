@@ -402,7 +402,6 @@ const getUserStats = async () => {
   let invester = await contract.players(currentAccount).call();
   $('#address2').text(currentAccount);
   const userpayout = (((invester.payoutSum.toNumber() / 1000000) * 10) / 7);
-  userpayout = 
   $('#userpayout').text(userpayout.toFixed(2));
   const sponsoraddress1 = invester.affFrom;
   const sponsoraddress = walletTronWeb.address.fromHex(sponsoraddress1);
