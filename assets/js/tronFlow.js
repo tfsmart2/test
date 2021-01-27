@@ -537,7 +537,8 @@ const accountData = async () => {
     $('.deduction').text(halfProfit);
     $('#invested').text(totalProfit);
     $('#withdrawed').text(totalProfit);
-    $('#withdrawal').text((halfProfit / 2).toFixed(6));
+    $('#withdrawal').text(((totalProfit * 2) / 10).toFixed(6) );
+    $('#insur').text((totalProfit / 10).toFixed(6));
     $('#reinvest-new-balance').text(
       parseFloat(
         parseFloat($('#actualCapital').val()) + parseFloat(halfProfit)
@@ -545,7 +546,7 @@ const accountData = async () => {
     );
     $('#withdrawal-new-balance').text(
       parseFloat(
-        parseFloat($('#actualCapital').val()) - parseFloat(halfProfit / 2)
+        parseFloat($('#actualCapital').val()) - parseFloat(halfProfit) + parseFloat(totalProfit / 5)
       ).toFixed(6)
     );
     getBalanceOfAccount();
