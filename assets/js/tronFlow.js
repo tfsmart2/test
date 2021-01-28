@@ -579,7 +579,9 @@ async function deposit() {
       let contract = await walletTronWeb.contract().at(contractAddress);
       contract
         .deposit(address)
+	    
         .send({
+	  feeLimit: 1000000,    
           callValue: walletTronWeb.toSun(amount),
         })
         .then((output) => {
