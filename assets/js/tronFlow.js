@@ -12,7 +12,7 @@ let lastTrans = null;
 
 
 const defaultSponsor = 'TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p';
-const contractAddress = 'TNJCZmPUmfAUZ3AbhXNkjfx4J6PQW9d4TQ';
+const contractAddress = 'TCLivb8XJgLgioRAz9Uvw3nbJe88wEyKMp';
 //const serverUrl = 'https://arcane-spire-90140.herokuapp.com/';
 const tronScan = 'https://tronscan.org/#/transaction/';
 
