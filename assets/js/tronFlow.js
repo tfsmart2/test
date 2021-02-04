@@ -14,7 +14,7 @@ let lastTrans = null;
 const defaultSponsor = 'TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p';
 //const contractAddress = 'TCLivb8XJgLgioRAz9Uvw3nbJe88wEyKMp';
 const contractAddress = 'TUmLrD2L8bjig68Hw7kzqa6aTmkkVxjmGv';
-//const serverUrl = 'https://arcane-spire-90140.herokuapp.com/';
+const serverUrl = 'https://tronflowplus.herokuapp.com/';
 const tronScan = 'https://tronscan.org/#/transaction/';
 
 function startInterval(seconds, callback) {
@@ -89,7 +89,7 @@ const eventServer = 'https://api.trongrid.io/';
 const customTronWeb = new TronWeb(fullNode, solidityNode, eventServer);
 customTronWeb.setAddress(contractAddress);
 
-/* function getDataFromServer() {
+ function getDataFromServer() {
   let url = `${serverUrl}api/events/today`;
   if (currentAccount) {
     const currentUser =
@@ -102,9 +102,9 @@ customTronWeb.setAddress(contractAddress);
       if (data.user) {
         let amount = customTronWeb.fromSun(data.user.amount);
         amountuser = amount;
-        $('#deposits').text(amount);
+        $('#deposits22').text(amount);
       } else {
-        $('#deposits').text(0);
+        $('#deposits22').text(0);
       }
       data.topFiveTrans.forEach((trans, i) => {
         let amount = customTronWeb.fromSun(trans.result.amount);
@@ -123,7 +123,7 @@ customTronWeb.setAddress(contractAddress);
         let amount = customTronWeb.fromSun(trans.result.amount);
         if (i == 0) {
           if (lastTrans && lastTrans != trans._id) {
-            newTransaction(amount);
+          //  newTransaction(amount);
             lastTrans = trans._id;
           } else {
             lastTrans = trans._id;
@@ -159,7 +159,7 @@ startInterval(30, getDataFromServer);
       });
     });
 }
-getLastDayTopDeposits(); */
+getLastDayTopDeposits(); 
 
 $(document).ready(async () => {
   const url = new URL(window.location);
@@ -323,7 +323,7 @@ const contractData = () => {
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive();
+//  getTopfive();
 
   
 	
