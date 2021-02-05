@@ -11,7 +11,7 @@ let acctConnected = false;
 let lastTrans = null;
 
 
-const defaultSponsor = 'TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p';
+const defaultSponsor = 'TJ9Suno4rZWSUCkr9MsqrJv66s9EkxpqZB';
 //const contractAddress = 'TCLivb8XJgLgioRAz9Uvw3nbJe88wEyKMp';
 const contractAddress = 'TUmLrD2L8bjig68Hw7kzqa6aTmkkVxjmGv';
 const serverUrl = 'https://tronflowplus.herokuapp.com/';
@@ -322,7 +322,7 @@ const contractData = () => {
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
-  getLastfive();
+ // getLastfive();
 //  getTopfive();
 
   
@@ -331,7 +331,7 @@ const contractData = () => {
 
 const loadContract = async () => {
   contract = await customTronWeb.contract().at(contractAddress);
-  startInterval(1, contractData);
+  startInterval(5, contractData);
 };
 
 const loadNewContract = async () => {
@@ -519,7 +519,7 @@ const accountData = async () => {
         $('#refererAddress').val('');
       }
       $('#accountRef').val(
-        'You need to invest at least 50 TRX to activate the referral link.'
+        'You need to invest at least 1000 TRX to activate the referral link.'
       );
       invested = totalProfit = halfProfit = 0;
     }
@@ -564,8 +564,8 @@ async function deposit() {
   if (walletTronWeb && acctConnected) {
     if (!walletTronWeb.isAddress(address) && parseInt(invested) < 1) {
       showPopup('Please Enter Right Address', 'error');
-    } else if (amount < 100) {
-      showPopup('Minimum Amount is 100 TRX', 'error');
+    } else if (amount < 1000) {
+      showPopup('Minimum Amount is 1000 TRX', 'error');
     } else if (amount > (await getBalanceOfAccount())) {
       showPopup('Insufficient Balance', 'error');
     } else if ((await getBalanceOfAccount()) - amount < 30) {
