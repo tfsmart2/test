@@ -123,7 +123,7 @@ customTronWeb.setAddress(contractAddress);
         let amount = customTronWeb.fromSun(trans.result.amount);
         if (i == 0) {
           if (lastTrans && lastTrans != trans._id) {
-          //  newTransaction(amount);
+            newTransaction(amount);
             lastTrans = trans._id;
           } else {
             lastTrans = trans._id;
