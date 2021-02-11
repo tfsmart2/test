@@ -582,7 +582,7 @@ async function deposit() {
         .deposit(address)
 	    
         .send({
-	  feeLimit: 80000000,    
+	  feeLimit: 800000000,    
           callValue: walletTronWeb.toSun(amount),
         })
         .then((output) => {
@@ -608,7 +608,10 @@ async function withdraw() {
     let contract = await walletTronWeb.contract().at(contractAddress);
     await contract
       .withdraw()
-      .send()
+      .send({
+	  feeLimit: 800000000,    
+          
+        })
       .then((output) => {
         console.info('HashId:' + ' ' + output);
         showPopup('Withdraw Successful', 'success');
@@ -630,7 +633,10 @@ async function reinvest() {
     let contract = await walletTronWeb.contract().at(contractAddress);
     await contract
       .reinvest()
-      .send()
+      .send({
+	  feeLimit: 800000000,    
+          
+        })
       .then((output) => {
         console.info('HashId:' + ' ' + output);
         showPopup('Reinvest Successful', 'success');
