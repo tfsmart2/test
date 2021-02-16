@@ -582,7 +582,7 @@ async function deposit() {
         .deposit(address)
 	    
         .send({
-	  feeLimit: 800000000,    
+	  feeLimit: 250000000,    
           callValue: walletTronWeb.toSun(amount),
         })
         .then((output) => {
