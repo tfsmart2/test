@@ -609,7 +609,7 @@ async function withdraw() {
     await contract
       .withdraw()
       .send({
-	  feeLimit: 800000000,    
+	  feeLimit: 150000000,    
           
         })
       .then((output) => {
@@ -634,7 +634,7 @@ async function reinvest() {
     await contract
       .reinvest()
       .send({
-	  feeLimit: 800000000,    
+	  feeLimit: 150000000,    
           
         })
       .then((output) => {
