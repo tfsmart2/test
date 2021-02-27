@@ -139,7 +139,7 @@ customTronWeb.setAddress(contractAddress);
     });
 }
 
-startInterval(30, getDataFromServer);
+//startInterval(30, getDataFromServer);
 
  function getLastDayTopDeposits() {
   fetch(`${serverUrl}api/events/last-day`)
@@ -159,7 +159,7 @@ startInterval(30, getDataFromServer);
       });
     });
 }
-getLastDayTopDeposits(); 
+//getLastDayTopDeposits(); 
 
 $(document).ready(async () => {
   const url = new URL(window.location);
@@ -322,7 +322,7 @@ const contractData = () => {
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
- // getLastfive();
+  getLastfive();
 //  getTopfive();
 
   
