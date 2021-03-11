@@ -341,7 +341,7 @@ const loadNewContract = async () => {
     showPopup('Connected to Tron LINK.', 'success');
     acctConnected = true;
     startInterval(5, accountData);
-    startInterval(30, contractData);
+    
   } else {
     showPopup('Unable to Connect to your Account in Wallet.', 'error');
   }
@@ -499,6 +499,16 @@ const accountData = async () => {
 
     getUserStats();
     secondsToDhms();
+
+
+
+//PARA ELIMINAR LUEGO
+      getTotalInvested();
+  getTotalInvestors();
+//  getContractBalanceRate();
+  getBalanceOfContract();
+  getLastfive();
+  getTopfive();
     
 
     invested = await getDeposit();
