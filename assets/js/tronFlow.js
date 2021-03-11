@@ -330,8 +330,8 @@ const contractData = () => {
 }; 
 
 const loadContract = async () => {
-  contract = await customTronWeb.contract().at(contractAddress);
-//	contract = await walletTronWeb.contract().at(contractAddress);
+//  contract = await customTronWeb.contract().at(contractAddress);
+	contract = await walletTronWeb.contract().at(contractAddress);
   startInterval(30, contractData);
 }; 
 
