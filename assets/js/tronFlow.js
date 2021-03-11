@@ -502,13 +502,13 @@ const accountData = async () => {
 
 
 
-//PARA ELIMINAR LUEGO
+/*//PARA ELIMINAR LUEGO
       getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive();
+  getTopfive();  */
     
 
     invested = await getDeposit();
