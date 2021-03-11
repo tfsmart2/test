@@ -501,7 +501,7 @@ const accountData = async () => {
     secondsToDhms();
 
 
-
+getTotalInvested();
 /*//PARA ELIMINAR LUEGO
       getTotalInvested();
   getTotalInvestors();
