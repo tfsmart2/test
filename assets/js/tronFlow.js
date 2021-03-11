@@ -319,12 +319,12 @@ const getTopfive = async () => {
 
 
 const contractData = () => {
-  getTotalInvested();
+/*  getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive(); 
+  getTopfive(); */
 
   
 	
@@ -502,14 +502,14 @@ const accountData = async () => {
     secondsToDhms();
 
 
-/*
+
 //PARA ELIMINAR LUEGO
       getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive();  */
+  getTopfive();  
     
 
     invested = await getDeposit();
