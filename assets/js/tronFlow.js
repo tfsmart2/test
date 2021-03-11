@@ -317,7 +317,7 @@ const getTopfive = async () => {
 };
 
 
-const contractData = () => {
+/*const contractData = () => {
   getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
@@ -327,7 +327,7 @@ const contractData = () => {
 
   
 	
-};
+}; */
 
 /*const loadContract = async () => {
   contract = await customTronWeb.contract().at(contractAddress);
