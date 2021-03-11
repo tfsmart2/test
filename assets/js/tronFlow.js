@@ -317,23 +317,23 @@ const getTopfive = async () => {
 };
 
 
-/*const contractData = () => {
-  getTotalInvested();
+const contractData = () => {
+/*  getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive();
+  getTopfive(); */
 
   
 	
-}; */
+}; 
 
-/*const loadContract = async () => {
+const loadContract = async () => {
   contract = await customTronWeb.contract().at(contractAddress);
 //	contract = await walletTronWeb.contract().at(contractAddress);
   startInterval(30, contractData);
-}; */
+}; 
 
 const loadNewContract = async () => {
   contract = await walletTronWeb.contract().at(contractAddress);
