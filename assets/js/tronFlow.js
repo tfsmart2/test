@@ -81,13 +81,13 @@ const newTransaction = (amount) => {
 
 
 
-const HttpProvider = TronWeb.providers.HttpProvider;
+/*const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.trongrid.io');
 const solidityNode = new HttpProvider('https://api.trongrid.io');
 const eventServer = 'https://api.trongrid.io/';
 
 const customTronWeb = new TronWeb(fullNode, solidityNode, eventServer);
-customTronWeb.setAddress(contractAddress);
+customTronWeb.setAddress(contractAddress); */
 
  function getDataFromServer() {
   let url = `${serverUrl}api/events/today`;
@@ -213,7 +213,8 @@ const getTotalInvestors = async () => {
 };
 
 const getBalanceOfContract = async () => {
-  return customTronWeb.trx.getBalance(contractAddress).then((res) => {
+//  return customTronWeb.trx.getBalance(contractAddress).then((res) => {
+return walletTronWeb.trx.getBalance(contractAddress).then((res) => {
     const contbalance = parseInt(res / 1000000);
     if (contbalance) {
       $('#contbalance').text(thousandsSeparators(contbalance));
@@ -243,7 +244,7 @@ let inputVal =document.getElementById("last0ad").value;
 
 
 //alert(inputVal);
-let inputcompare = customTronWeb.address.fromHex(last1ad);
+let inputcompare = walletTronWeb.address.fromHex(last1ad);
 
 if ((inputVal != inputcompare) && (inputVal != "")) {
           let newlast1 = parseFloat(last1/1000000).toFixed(2);
@@ -254,15 +255,15 @@ if ((inputVal != inputcompare) && (inputVal != "")) {
 
 
  $('#last0').text(parseFloat(last1/1000000).toFixed(2) + ' TRX');
- $('#last0ad').val(customTronWeb.address.fromHex(last1ad));
+ $('#last0ad').val(walletTronWeb.address.fromHex(last1ad));
  $('#last1').text(parseFloat(last2/1000000).toFixed(2) + ' TRX');
- $('#last1ad').val(customTronWeb.address.fromHex(last2ad));
+ $('#last1ad').val(walletTronWeb.address.fromHex(last2ad));
  $('#last2').text(parseFloat(last3/1000000).toFixed(2) + ' TRX');
- $('#last2ad').val(customTronWeb.address.fromHex(last3ad));
+ $('#last2ad').val(walletTronWeb.address.fromHex(last3ad));
  $('#last3').text(parseFloat(last4/1000000).toFixed(2) + ' TRX');
- $('#last3ad').val(customTronWeb.address.fromHex(last4ad));
+ $('#last3ad').val(walletTronWeb.address.fromHex(last4ad));
  $('#last4').text(parseFloat(last5/1000000).toFixed(2) + ' TRX');
- $('#last4ad').val(customTronWeb.address.fromHex(last5ad));
+ $('#last4ad').val(walletTronWeb.address.fromHex(last5ad));
 
 
 };
@@ -292,25 +293,25 @@ const getTopfive = async () => {
 
 
  $('#top1').text(parseFloat(top1/1000000).toFixed(2) + ' TRX');
- $('#top1ad').val(customTronWeb.address.fromHex(top1ad));
+ $('#top1ad').val(walletTronWeb.address.fromHex(top1ad));
  $('#top2').text(parseFloat(top2/1000000).toFixed(2) + ' TRX');
- $('#top2ad').val(customTronWeb.address.fromHex(top2ad));
+ $('#top2ad').val(walletTronWeb.address.fromHex(top2ad));
  $('#top3').text(parseFloat(top3/1000000).toFixed(2) + ' TRX');
- $('#top3ad').val(customTronWeb.address.fromHex(top3ad));
+ $('#top3ad').val(walletTronWeb.address.fromHex(top3ad));
  $('#top4').text(parseFloat(top4/1000000).toFixed(2) + ' TRX');
- $('#top4ad').val(customTronWeb.address.fromHex(top4ad));
+ $('#top4ad').val(walletTronWeb.address.fromHex(top4ad));
  $('#top5').text(parseFloat(top5/1000000).toFixed(2) + ' TRX');
- $('#top5ad').val(customTronWeb.address.fromHex(top5ad));
+ $('#top5ad').val(walletTronWeb.address.fromHex(top5ad));
  $('#lasttop1').text(parseFloat(lasttop1/1000000).toFixed(2) + ' TRX');
- $('#lasttop1ad').val(customTronWeb.address.fromHex(lasttop1ad));
+ $('#lasttop1ad').val(walletTronWeb.address.fromHex(lasttop1ad));
  $('#lasttop2').text(parseFloat(lasttop2/1000000).toFixed(2) + ' TRX');
- $('#lasttop2ad').val(customTronWeb.address.fromHex(lasttop2ad));
+ $('#lasttop2ad').val(walletTronWeb.address.fromHex(lasttop2ad));
  $('#lasttop3').text(parseFloat(lasttop3/1000000).toFixed(2) + ' TRX');
- $('#lasttop3ad').val(customTronWeb.address.fromHex(lasttop3ad));
+ $('#lasttop3ad').val(walletTronWeb.address.fromHex(lasttop3ad));
  $('#lasttop4').text(parseFloat(lasttop4/1000000).toFixed(2) + ' TRX');
- $('#lasttop4ad').val(customTronWeb.address.fromHex(lasttop4ad));
+ $('#lasttop4ad').val(walletTronWeb.address.fromHex(lasttop4ad));
  $('#lasttop5').text(parseFloat(lasttop5/1000000).toFixed(2) + ' TRX');
- $('#lasttop5ad').val(customTronWeb.address.fromHex(lasttop5ad));
+ $('#lasttop5ad').val(walletTronWeb.address.fromHex(lasttop5ad));
 
 
 
@@ -501,14 +502,14 @@ const accountData = async () => {
     secondsToDhms();
 
 
-getTotalInvested();
-/*//PARA ELIMINAR LUEGO
+
+//PARA ELIMINAR LUEGO
       getTotalInvested();
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();
-  getTopfive();  */
+  getTopfive();  
     
 
     invested = await getDeposit();
