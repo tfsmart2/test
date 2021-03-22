@@ -341,7 +341,7 @@ const loadNewContract = async () => {
   if (walletTronWeb.defaultAddress.base58) {
     showPopup('Connected to Tron LINK.', 'success');
     acctConnected = true;
-    startInterval(5, accountData);
+    startInterval(1, accountData);
     
   } else {
     showPopup('Unable to Connect to your Account in Wallet.', 'error');
