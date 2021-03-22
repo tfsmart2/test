@@ -508,8 +508,8 @@ const accountData = async () => {
   getTotalInvestors();
 //  getContractBalanceRate();
   getBalanceOfContract();
-  getLastfive();
-  getTopfive();  
+ // getLastfive();  las quito para ver si mejora la velocidad
+ // getTopfive();   idem
     
 
     invested = await getDeposit();
