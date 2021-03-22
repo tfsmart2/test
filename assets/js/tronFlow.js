@@ -334,7 +334,7 @@ const loadContract = async () => {
 //  contract = await customTronWeb.contract().at(contractAddress);
 	contract = await walletTronWeb.contract().at(contractAddress);
   //startInterval(30, contractData);
-	startInterval(1, contractData);
+	startInterval(30, contractData);
 }; 
 
 const loadNewContract = async () => {
@@ -342,7 +342,7 @@ const loadNewContract = async () => {
   if (walletTronWeb.defaultAddress.base58) {
     showPopup('Connected to Tron LINK.', 'success');
     acctConnected = true;
-    startInterval(1, accountData);
+    startInterval(5, accountData);
     
   } else {
     showPopup('Unable to Connect to your Account in Wallet.', 'error');
@@ -510,7 +510,7 @@ const accountData = async () => {
 //  getContractBalanceRate();
   getBalanceOfContract();
   getLastfive();  
-  getTopfive();   
+//  getTopfive();   
     
 
     invested = await getDeposit();
